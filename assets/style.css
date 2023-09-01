@@ -120,6 +120,10 @@ p {
   font-size: 20px;
 }
 
+.logo {
+  height: 75px;
+  width: 75px;
+
 .hero {
   height: 800px;
   width: 100%;
