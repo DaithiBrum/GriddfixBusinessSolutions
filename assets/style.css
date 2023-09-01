@@ -114,6 +114,7 @@ p {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   text-align: center;
+  background-color: #2a607c;
 }
 
 .footer h2 {
@@ -121,8 +122,15 @@ p {
 }
 
 .logo {
-  height: 75px;
-  width: 75px;
+  
+  display: inline;
+  height: 100px;
+  width:100px;
+  position:center;
+  opacity: .3;
+
+
+}
 
 .hero {
   height: 800px;
@@ -148,6 +156,12 @@ p {
 .service h2 {
   margin-bottom: 20px;
   font-size: 36px;
+}
+
+.services {
+  width: 75%;
+  display: inline-block;
+  margin-left: 20px;
 }
 
 .services {
